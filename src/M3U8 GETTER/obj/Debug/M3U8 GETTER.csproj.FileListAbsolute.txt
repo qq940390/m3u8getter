@@ -1,0 +1,9 @@
+D:\C#Project\M3U8 GETTER\M3U8 GETTER\bin\Debug\M3U8 GETTER.exe.config
+D:\C#Project\M3U8 GETTER\M3U8 GETTER\bin\Debug\M3U8 GETTER.exe
+D:\C#Project\M3U8 GETTER\M3U8 GETTER\bin\Debug\M3U8 GETTER.pdb
+D:\C#Project\M3U8 GETTER\M3U8 GETTER\obj\Debug\M3U8_GETTER.Properties.Resources.resources
+D:\C#Project\M3U8 GETTER\M3U8 GETTER\obj\Debug\M3U8 GETTER.csproj.GenerateResource.cache
+D:\C#Project\M3U8 GETTER\M3U8 GETTER\obj\Debug\M3U8 GETTER.csproj.CoreCompileInputs.cache
+D:\C#Project\M3U8 GETTER\M3U8 GETTER\obj\Debug\M3U8 GETTER.exe
+D:\C#Project\M3U8 GETTER\M3U8 GETTER\obj\Debug\M3U8 GETTER.pdb
+D:\C#Project\M3U8 GETTER\M3U8 GETTER\obj\Debug\M3U8_GETTER.Form1.resources
