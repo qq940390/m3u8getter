@@ -120,6 +120,7 @@ namespace M3U8_GETTER.classes
             HttpWebRequest httpWebRequest = null;
             HttpWebResponse httpWebResponse = null;
 
+            System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
             System.Net.ServicePointManager.DefaultConnectionLimit = 30000;
             System.Net.ServicePointManager.ServerCertificateValidationCallback +=
             delegate (object sender, System.Security.Cryptography.X509Certificates.X509Certificate certificate,

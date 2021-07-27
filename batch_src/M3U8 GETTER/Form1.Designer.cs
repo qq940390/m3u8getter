@@ -739,7 +739,7 @@ namespace M3U8_GETTER
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "M3U8 GETTER 1.0.2 批量下载版";
+            this.Text = "M3U8 GETTER 1.0.3 批量下载版";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tctlMain.ResumeLayout(false);

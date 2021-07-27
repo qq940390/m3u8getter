@@ -150,7 +150,7 @@ namespace M3U8_GETTER.classes
 
             if (this.IsLocalFile == false)
             {//网络文件
-                //下载m3u8到本地目录
+                //下载m3u8到本地目录                
                 bool isOk = HTMLHelper.DownloadFile(this.M3u8Url, this.M3u8Md5FilePath);
                 if(isOk == false)
                 {
@@ -217,6 +217,13 @@ namespace M3U8_GETTER.classes
                         strContent = strContent.Replace(tmpItem, this.Md5Path.Replace("\\", "/") + Core.TrimFilename(tmpItem.Substring(_index2, tmpItem.Length - _index2)));
                     }
                 }
+
+                //如果尾部没有 #EXT-X-ENDLIST  则加上
+                if (strContent.LastIndexOf("#EXT-X-ENDLIST") == -1)
+                {
+                    strContent += "\r\n#EXT-X-ENDLIST";
+                }
+
 
                 File.WriteAllText(this.M3u8Md5FilePath, strContent);
             }
