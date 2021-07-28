@@ -1,1 +1,0 @@
-taskkill /F /im ffmpeg.exe
